@@ -31,8 +31,8 @@ Any entities which deployed to your Kubernetes cluster such as Deployments, Pods
 
 - Notifies the namespace owner (email, hipchat, ...).
 - After X amount of notifications, it will do a hard action such as:
-    - Scale bad deployments down to zero.
-    - Suspend bad jobs.
+    - Scale bad deployments down to zero
+    - Suspend bad jobs
     - Delete bad ingress
 
 Note that there is a safe mode - which only notifies and does not do hard actions.

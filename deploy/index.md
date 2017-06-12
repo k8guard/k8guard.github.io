@@ -5,9 +5,9 @@ sidebar:
   nav: deploy
 ---
 
-For production it is recommended to deploy kuberentes to a namespace with the same level of access with kube-system.
+For production it is recommended to deploy Kubernetes to a namespace with the same level of access as kube-system.
 
-To try it locally on your machine , two options :
+To try it locally on your machine, two options :
 1. [Minikube](/deploy/minikube/)
 2. [Docker-compose](/deploy/docker-compose/)
 

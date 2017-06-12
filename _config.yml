@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "K8guard"
+title                    : "K8Guard"
 title_separator          : "-"
 name                     : "K8Guard"
 description              : "The Guardian Angel for Kubernetes Clusters."
