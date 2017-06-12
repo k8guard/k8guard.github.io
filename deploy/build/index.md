@@ -6,13 +6,13 @@ sidebar:
 ---
 
 Remember to build the project before deploying.
-To build all run this in `k8guard-start-from-here` folder:
+To build all run this in `k8guard-start-from-here` directory:
 
 ```
 	make build-all
 ```
 
-- Hint: To save time. you can build each micro-service individually if you don't wanna build all of them:
+- Hint: To save time. you can build each micro-service individually if you don't want to build all of them:
 
 	- ```make build-discover```
 

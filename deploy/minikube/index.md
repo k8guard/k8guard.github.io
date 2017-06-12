@@ -6,10 +6,10 @@ sidebar:
 ---
 
 
-In this option you will test k8guard against a minikube context and will also deploy it to minikube. (safest way for develpoment)
+In this option you will test k8guard against a minikube context and will also deploy it to minikube. (safest way for development)
 
 ### Setup and start minikube
-1. Make sure you install minikube v0.18.0. There is an [issue](https://github.com/kubernetes/minikube/issues/1521) with latest version of minikube. don't install latest.
+1. Make sure you install minikube v0.18.0. There is an [issue](https://github.com/kubernetes/minikube/issues/1521) with latest version of minikube - don't install latest.
 
 	```
 	curl -Lo minikube-binary https://storage.googleapis.com/minikube/releases/v0.18.0/minikube-darwin-amd64 && chmod +x minikube-binary && sudo mv minikube-binary /usr/local/bin/minikube
@@ -25,9 +25,9 @@ In this option you will test k8guard against a minikube context and will also de
 
 ### Get the endpoint URLS
 
-Give it a couple minutes. and hit the service urls:
+Give it a couple minutes, then hit the service urls:
 
 1. Get discover service url: ``` minikube service k8guard-discover-service ```
 
-- Get report service url:
+1. Get report service url:
  ``` minikube service k8guard-report-service ```

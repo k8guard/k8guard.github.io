@@ -9,16 +9,16 @@ sidebar:
 
 ##  Deploy Option 1: Run in docker-compose
 
-1. Config :
-	edit `.env` and `env-creds` files. (default values should work fine.)
+1. Config:
+	edit `.env` and `env-creds` files. (default values should work fine)
 
-1. set your kubernetes context to the cluster you want the k8guard to run against.
+1. Set your kubernetes context to the cluster you want k8guard to run against.
 
 	```
 	kubectl config use-context REPLACE_WITH_YOUR_CONTEXT
 	```
 
-1. Bring the core (cassandra, kafka, memcached):
+1. Bring up the core services (cassandra, kafka, memcached):
 
 	```
 	make up-core

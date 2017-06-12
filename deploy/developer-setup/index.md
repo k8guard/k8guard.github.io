@@ -25,9 +25,9 @@ sidebar:
 	```
 
 
-	* Hint 1: The above steps will clone other repos (k8guardlibs, k8guard-discover, k8guard-action, k8guard-report), and install golang tools (glide, goimport) for you, and also will setup the pre-commits hooks. note: it uses brew to install glide for only for mac users currently.
+	* Hint 1: The above steps will clone other repos (k8guardlibs, k8guard-discover, k8guard-action, k8guard-report), install golang tools (glide, goimport) for you, and will also setup the pre-commit hooks. Note: It uses brew to install glide for only for mac users currently.
 
 
-	* Hint 2: `Makefile` is your friend and it is better than this documentation. take a look at the Makefile in the root of this folder, to undrestand all the commands you need.
+	* Hint 2: `Makefile` is your friend and it is better than this documentation. Take a look at the Makefile in the root of this folder, to understand all the commands you need.
 
-  * Hint 3: `k8guard-start-from-here` folder is your where should be, when running the commands.
+  * Hint 3: `k8guard-start-from-here` folder should be your working directory when running the commands.
