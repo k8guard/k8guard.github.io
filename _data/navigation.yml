@@ -1,0 +1,56 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Design"
+    url: /about/design/
+  - title: "Deploy"
+    url: /deploy/
+  - title: "Community"
+    url: /community/
+
+
+community:
+  - children:
+    - title: Community
+      url: /community/
+    - title: Authors
+      url: /community/authors/
+    - title: License
+      url: /community/license
+
+
+deploy:
+  - children:
+    - title: Deployment Options
+      url: /deploy/
+    - title: Developer Setup
+      url: /deploy/developer-setup/
+    - title: Build the Project
+      url: /deploy/build/
+    - title: Deploy to Minikube
+      url: /deploy/minikube/
+    - title: Deploy to docker-compose
+      url: /deploy/docker-compose/
+    - title: Configuration
+      url: /deploy/config/
+
+
+
+
+about:
+  - children:
+    - title: Overview
+      url: /about/
+    - title: Features
+      url: /about/features/
+    - title: Violation Examples
+      url: /about/violations/
+    - title: Metrics
+      url: /about/metrics/
+    - title: Design
+      url: /about/design/
+    - title: Screenshots
+      url: /about/screenshots/
+    - title: Requirements
+      url: /about/requirements/
