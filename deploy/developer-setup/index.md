@@ -7,7 +7,7 @@ sidebar:
 
 
 
-* Install Go and Setup your setup your `$GOPATH`.
+* Install Go and Setup your `$GOPATH`.
 
 * Run the following to clone the repos:
 
