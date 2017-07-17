@@ -18,6 +18,9 @@ community:
       url: /community/authors/
     - title: License
       url: /community/license
+    - title: Publications
+      url: /community/publications
+
 
 
 deploy:
@@ -34,7 +37,8 @@ deploy:
       url: /deploy/docker-compose/
     - title: Configuration
       url: /deploy/config/
-
+    - title: Versions
+      url: /deploy/versions/
 
 
 
