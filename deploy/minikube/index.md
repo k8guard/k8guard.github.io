@@ -8,26 +8,41 @@ sidebar:
 
 In this option you will test k8guard against a minikube context and will also deploy it to minikube. (safest way for development)
 
-### Setup and start minikube
-1. Make sure you install minikube v0.18.0. There is an [issue](https://github.com/kubernetes/minikube/issues/1521) with latest version of minikube - don't install latest.
+### Setup and Start Minikube
+1. Install [Minikube](https://github.com/kubernetes/minikube/releases/tag/v0.20.0)
 
-	```
-	curl -Lo minikube-binary https://storage.googleapis.com/minikube/releases/v0.18.0/minikube-darwin-amd64 && chmod +x minikube-binary && sudo mv minikube-binary /usr/local/bin/minikube
-	```
+1. Start Minikube (with kubernetes v1.6.4)
+```
+minikube start --memory 4096 --kubernetes-version v1.6.4
+```
 
-1. ```minikube start --memory 4096 --kubernetes-version v1.5.1```
-
-### Deploy Minikube
-
-1. ```eval $(minikube docker-env)```
-1. ```make deploy-minikube```
+* To try k8guard with an older version Kubernetes please refer to [version compatibility matrix](http://0.0.0.0:4000/deploy/versions/).
 
 
-### Get the endpoint URLS
+### Build & Deploy to Minikube
+
+Do the following two commands in the same terminal:
+
+1. Use minikube docker
+```
+eval $(minikube docker-env)
+```
+
+2. Build and deploy
+ ```
+ make build-deploy-minikube
+ ```
+
+
+### Try It in Browser:
 
 Give it a couple minutes, then hit the service urls:
 
-1. Get discover service url: ``` minikube service k8guard-discover-service ```
-
-1. Get report service url:
- ``` minikube service k8guard-report-service ```
+1. Discover-api service url:
+```
+minikube service k8guard-discover-service
+```
+1. Report service url:
+ ```
+  minikube service k8guard-report-service
+ ```
