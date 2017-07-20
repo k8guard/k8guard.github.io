@@ -11,6 +11,8 @@ sidebar:
 
 1. ### [Kubernetes Community Youtube Channel](https://www.youtube.com/watch?v=9W6sGmjsW_c)  
     June 29, 2017 | Medya Ghazizadeh
+1. ### [WebOps Weekly Issue 122](https://webopsweekly.com/issues/122)  
+    June 28, 2017 | WebOps Weekly
 1. ### [Target Corp Tech Blog](http://target.github.io/infrastructure/k8guard-the-guardian-angel-for-kuberentes)  
     June 27, 2017 | Medya Ghazizadeh
 1. ### [Tech @ Target Conference]()  
