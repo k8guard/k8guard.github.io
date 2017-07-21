@@ -8,7 +8,8 @@ sidebar:
 
 ### Conferences, Presentations, Blog Posts about K8Guard.
 
-
+1. ### [Changelog.com: Go Time - Infosec Research and App Security](https://changelog.com/gotime/51)
+    July 19, 2017 | Aaron Hnatiw, Erik St. Martin
 1. ### [Kubernetes Community Youtube Channel](https://www.youtube.com/watch?v=9W6sGmjsW_c)  
     June 29, 2017 | Medya Ghazizadeh
 1. ### [WebOps Weekly Issue 122](https://webopsweekly.com/issues/122)  
