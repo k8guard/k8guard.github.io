@@ -14,6 +14,8 @@ community:
   - children:
     - title: Community
       url: /community/
+    - title: Contribute
+      url: /community/contribute
     - title: Authors
       url: /community/authors/
     - title: License
