@@ -12,3 +12,4 @@ sidebar:
 - Generates report and metrics of violations and actions.
 - Provides an API for integration.
 - Highly configurable for different needs.
+- Supports 2 tech stacks:  run with Kafka, Zookeeper, Memcached and Cassandra, or run with lighter weight dependencies of just Redis and Cassandra.
