@@ -25,7 +25,7 @@ If you have large size Kuberentes clusters with a lot of tenants. and you need s
 
 ### What Kind of Entities Does It Monitor?
 
-Any entities which deployed to your Kubernetes cluster such as Deployments, Pods, Jobs/CronJobs, Ingresses and namespaces.
+Any entities which deployed to your Kubernetes cluster such as Deployments, DaemonSets, Pods, Jobs/CronJobs, Ingresses, Namespaces and ResourceQuotas.
 
 ### What Kind of Actions Does It Take?
 
