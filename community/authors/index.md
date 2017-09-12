@@ -19,3 +19,4 @@ sidebar:
 | Name        | Social          
 | ------------- |:-------------:|
 |  [Mike Wilson](https://github.com/milsonian)     | @milsonian  |
+|  [Dean Hart](https://github.com/boardthatpowder) | @boardthatpowder  |
