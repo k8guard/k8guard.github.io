@@ -19,4 +19,5 @@ sidebar:
 | Name        | Social          
 | ------------- |:-------------:|
 |  [Mike Wilson](https://github.com/milsonian)     | @milsonian  |
+|  [Brian Berzins](https://github.com/brianberzins) | @brianberzins |
 |  [Dean Hart](https://github.com/boardthatpowder) | @boardthatpowder  |
