@@ -17,7 +17,7 @@ In this option you will test k8guard against a minikube context and will also de
 minikube start --memory 4096 --kubernetes-version v1.6.4
 ```
 
-* To try k8guard with an older version Kubernetes please refer to [version compatibility matrix](http://0.0.0.0:4000/deploy/versions/).
+* To try k8guard with an older version Kubernetes please refer to [version compatibility matrix](/deploy/versions/).
 
 
 ## Build & Deploy to Minikube
