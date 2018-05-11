@@ -8,6 +8,8 @@ sidebar:
 
 ### Conferences, Presentations, Blog Posts about K8Guard.
 
+1. ### [Linux Foundation ONS Conference, Los Angeles](https://onsna18.sched.com/event/Dm4l/k8guard-an-auditing-system-for-kubernetes-medya-ghazizadeh-google) 
+    March 28, 2018 | Medya Ghazizadeh | [Video](https://www.youtube.com/watch?v=FcNILuwmipA)
 1. ### [Changelog.com: Go Time - Infosec Research and App Security](https://changelog.com/gotime/51)
     July 19, 2017 | Aaron Hnatiw, Erik St. Martin
 1. ### [Kubernetes Community Youtube Channel](https://www.youtube.com/watch?v=9W6sGmjsW_c)  

@@ -2,6 +2,7 @@
 .PHONY: help
 
 install:
+	echo "Please visit https://jekyllrb.com/docs/installation/ "
 	bundle update
 
 up:
