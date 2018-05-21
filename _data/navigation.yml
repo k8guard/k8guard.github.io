@@ -2,12 +2,10 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Design"
-    url: /about/design/
   - title: "Deploy"
     url: /deploy/
   - title: "Community"
-    url: /community/
+    url: /community/publications/
 
 
 community:
